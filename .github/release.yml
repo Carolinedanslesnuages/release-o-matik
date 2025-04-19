@@ -31,5 +31,5 @@ jobs:
         id: release
         uses: googleapis/release-please-action@v4
         with:
-          target-branch: ${{ github.ref_name }}
+          target-branch: main
           token: ${{ secrets.GITHUB_TOKEN }}
